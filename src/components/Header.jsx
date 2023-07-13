@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function Header() {
   return (
     <header className="flex justify-between items-center lg:px-20">
-        <ul className="flex items-center justify-between">
+        <ul className="flex items-center justify-center">
             <li className="ml-20">
                 <Link to="/" className="no-underline text-emerald-500 hover:bg-slate-600 rounded-full p-2">Search</Link>
             </li>
