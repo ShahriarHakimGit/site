@@ -14,7 +14,7 @@ function SaveButton() {
     }
     return (
         <div>
-            <button className="bg-slate-900 text-green-500 mt-3 py-3 px-5 rounded-lg" onClick={onClick}>Save</button>
+            <button className="bg-slate-900 text-green-500 mt-3 py-3 px-5 rounded-lg hover:bg-slate-600" onClick={onClick}>Save</button>
         </div>
     )
 }
