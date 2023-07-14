@@ -4,13 +4,13 @@ function Header() {
   return (
     <header className="flex justify-between items-center">
         <ul className="flex items-center justify-between">
-            <li className="ml-20">
+            <li className="ml-10">
                 <Link to="/" className="no-underline text-emerald-500 hover:bg-slate-600 rounded-full p-2">Search</Link>
             </li>
-            <li className="ml-20">
+            <li className="ml-10">
                 <Link to="/saved" className="no-underline text-emerald-500 hover:bg-slate-600 rounded-full p-2">Saved</Link>
             </li>
-            <li className="ml-20">
+            <li className="ml-10">
                 <Link to="/about" className="no-underline text-emerald-500 hover:bg-slate-600 rounded-full p-2">About</Link>
             </li>
         </ul>
